@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+  <h1>{{ title }}</h1>
+  <form action="/like" method="post">
+    <fieldset>
+      <label>
+        Naam
+        <input type="text" name="username">
+      </label>
+      <label>
+        Password
+        <input type="password" name="password">
+      </label>
+    </fieldset>
+    <fieldset>
+      <label>
+        Male
+        <input type="radio" name="gender" value="male"></fieldset>
+      </label>
+      <label>
+        Female
+        <input type="radio" name="gender" value="female"></fieldset>
+      </label>
+    <fieldset>
+      <input type="submit" value="verstuur dit form">
+    </fieldset>
+  </form>
+</body>
+</html>
